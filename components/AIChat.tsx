@@ -102,7 +102,7 @@ export default function AIChat() {
                   Ask about my experience, skills or projects
                 </p>
                 <p className="text-xs opacity-70">
-                  Example: "What technologies do you specialize in?"
+                  Example: &quot;What technologies do you specialize in?&quot;
                 </p>
               </div>
             )}
