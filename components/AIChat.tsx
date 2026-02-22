@@ -31,9 +31,10 @@ export default function AIChat() {
     setLoading(true);
 
     try {
-      const response = await axios.post("http://127.0.0.1:8000/chat", null, {
-        params: { message: input },
-      });
+      const response = await axios.post(
+        `${process.env.NEXT_PUBLIC_API_URL}/chat`,
+        { message: input },
+      );
 
       const aiMessage: Message = {
         role: "assistant",
