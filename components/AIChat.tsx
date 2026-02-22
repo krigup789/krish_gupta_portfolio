@@ -33,13 +33,9 @@ export default function AIChat() {
     try {
       const response = await axios.post(
         `${process.env.NEXT_PUBLIC_API_URL}/chat`,
+        null,
         {
-          message: input,
-        },
-        {
-          headers: {
-            "Content-Type": "application/json",
-          },
+          params: { message: input },
         },
       );
 
