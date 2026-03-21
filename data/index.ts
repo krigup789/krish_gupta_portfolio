@@ -81,8 +81,6 @@ export const projects = [
   },
   {
     id: 2,
-<<<<<<< HEAD
-=======
     title: "ResumeBuddy - AI-Powered Resume Builder",
     des: "An AI-driven resume builder that generates tailored resumes based on user input and job descriptions.",
     img: "/resume2.png",
@@ -91,7 +89,6 @@ export const projects = [
   },
   {
     id: 3,
->>>>>>> 651daac (update projects)
     title: "Python to C/C++ Transpiler",
     des: "A lightweight transpiler that converts Python code into C and C++ for enhanced performance and portability.",
     img: "/transpiler.jpg",

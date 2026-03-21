@@ -10,14 +10,6 @@ const PinContainer = dynamic(
 const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
-<<<<<<< HEAD
-      <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
-      </h1>
-
-      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
-=======
       <h1 className="heading py-10">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
@@ -25,7 +17,6 @@ const RecentProjects = () => {
       </h1>
 
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10 py-10">
->>>>>>> 651daac (update projects)
         {projects.map((item) => (
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
@@ -48,11 +39,7 @@ const RecentProjects = () => {
                   <img
                     src={item.img}
                     alt="cover"
-<<<<<<< HEAD
-                    className="z-10 absolute bottom-0"
-=======
                     className="z-10 absolute bottom-0 left-1/2 transform -translate-x-1/2 lg:w-auto w-[90%] h-auto"
->>>>>>> 651daac (update projects)
                   />
                 </div>
 
